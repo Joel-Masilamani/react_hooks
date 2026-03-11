@@ -9,8 +9,10 @@ const Login = () => {
   return (
     <div style={{ padding: '20px' }}>
       <button onClick={() => dispatch({ type: 'LOGIN', payload: 'Joel' })}>
-        Login as John Doe
+        Login as Joel
       </button>
     </div>
   );
 };
+
+export default Login
